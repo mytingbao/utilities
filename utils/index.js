@@ -37,3 +37,4 @@ function base64ToFile(str, name = "finger.png", type = "image/png") {
   }
   return new File([new Uint8Array(array)], name, { type });
 }
+
